@@ -36,7 +36,7 @@ nav img {
 
 .nav-link:hover {
     border-bottom: 4px inset black;
-    background-color: rgb(246, 105, 83);
+    background-color: rgb(245, 42, 11);
 }
 
 .nav-link:visited {
@@ -50,7 +50,7 @@ nav img {
 /*INDEX*/
 
 body {
-    background-color: #150b64;
+    background-color: #640b0b;
 }
 
 h1 {
