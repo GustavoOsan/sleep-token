@@ -67,6 +67,12 @@ section p {
     font-weight: bolder;
 }
 
+.inicio p{
+    margin: 50px;
+    text-align:center;
+    width: auto;
+}
+
 .img img {
     display: flex;
     width: 100%;
