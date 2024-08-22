@@ -1,0 +1,104 @@
+@media (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    section p {
+        font-size: 13px;
+    }
+
+    .news {
+        h2 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    footer {
+        img {
+            width: 15px;
+            height: 15px;
+            padding: 1px;
+
+            &:hover {
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .text-footer {
+            font-size: x-small;
+        }
+    }
+
+    nav img.img-logo {
+        width: 50px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    section.discografia {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 23px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        h4 {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (min-width: 501px) and (max-width: 960px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    .news {
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+
+    footer {
+        img {
+            width: 30px;
+            height: 30px;
+            padding: 2px;
+
+            &:hover {
+                width: 32px;
+                height: 32px;
+            }
+        }
+        .text-footer {
+            font-size: small;
+        }
+    }
+
+    section.discografia {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

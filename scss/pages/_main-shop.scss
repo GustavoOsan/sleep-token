@@ -1,0 +1,16 @@
+.shop {
+    div.row {
+        margin-right: 0px;
+
+        .descripcion-prod {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .precio-prod {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

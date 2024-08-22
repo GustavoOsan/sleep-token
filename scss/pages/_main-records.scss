@@ -1,0 +1,42 @@
+section.discografia {
+    div.reprod-uno {
+        grid-area: reprod-uno;
+    }
+
+    div.reprod-dos {
+        grid-area: reprod-dos;
+    }
+
+    div.descripcion-disco-uno {
+        grid-area: descripcion-disco-uno;
+    }
+
+    div.reprod-tres {
+        grid-area: reprod-tres;
+    }
+
+    div.reprod-cuatro {
+        grid-area: reprod-cuatro;
+    }
+
+    div.descripcion-disco-dos {
+        grid-area: descripcion-disco-dos;
+    }
+
+    .descripcion-disco-uno {
+        display: flex;
+        flex-direction: column;
+    }
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    grid-column: 2;
+    grid-row: 4;
+    grid-template-areas: 
+    "reprod-uno descripcion-disco-uno"
+    "reprod-dos descripcion-disco-uno"
+    "descripcion-disco-dos reprod-tres "
+    "descripcion-disco-dos reprod-cuatro ";
+}
