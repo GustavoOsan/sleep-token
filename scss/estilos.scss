@@ -2,9 +2,10 @@
 @import "./utilities/variables";
 @import "./utilities/mixin";
 
+@import "./utilities/global";
 @import "./components/header";
 @import "./components/footer";
-@import "./utilities/global";
+
 
 @import "./pages/main-index";
 @import "./pages/main-art";
