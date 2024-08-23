@@ -1,0 +1,15 @@
+%imagenes-news {
+    width: 20%;
+    margin: 35px;
+}
+
+%iconos-footer {
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+
+    &:hover {
+        width: 50px;
+        height: 50px;
+    }
+}

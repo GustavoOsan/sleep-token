@@ -3,14 +3,12 @@
         margin-right: 0px;
 
         .descripcion-prod {
-            display: flex;
-            justify-content: center;
+            @include flexbox (row, center, inherit);
             text-align: center;
         }
 
         .precio-prod {
-            display: flex;
-            justify-content: center;
+            @include flexbox (row, center, center);
         }
     }
 }

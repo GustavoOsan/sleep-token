@@ -1,23 +1,10 @@
 section.galeria {
-    ul {
-        display: flex;
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-items: center;
-        list-style-type: none;
-        row-gap: 10px;
-        column-gap: 10px;
-        align-content: space-evenly;
-    }
-
     img {
-        display: flex;
-        justify-items: center;
+        @include flexbox (row, center, inherit);
     }
 
     h3 {
-        display: flex;
-        justify-content: center;
+        @include flexbox (row, center, inherit);
         padding-bottom: 50px;
         padding-top: 5px;
         font-size: 40px;

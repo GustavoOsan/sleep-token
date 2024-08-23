@@ -1,4 +1,13 @@
-.img img {
-    display: flex;
-    width: 100%;
+section {
+    .img img {
+        display: flex;
+        width: 100%;
+    }
+
+    div.inicio {
+        p {
+            font: $parrafos;
+            margin: 10px;
+        }
+    }
 }

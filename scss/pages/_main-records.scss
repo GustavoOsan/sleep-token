@@ -35,4 +35,7 @@ section.discografia {
     div.descripcion-disco-dos {
         grid-area: descripcion-disco-dos;
     }
+    h2{
+        font:$subtitulos;
+    }
 }
