@@ -1,13 +1,25 @@
-section {
-    .img img {
+body {
+    .iniciouno {
         display: flex;
-        width: 100%;
-    }
+        align-items: center;
+        flex-direction: column;
 
-    div.inicio {
-        p {
-            font: $parrafos;
-            margin: 10px;
+        .img {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 70%;
+            }
+        }
+
+        div.inicio {
+            margin: 5px 5%;
+
+            p {
+                font: $parrafos;
+                margin: 1%;
+                text-align: center;
+            }
         }
     }
 }

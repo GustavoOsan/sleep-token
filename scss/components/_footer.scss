@@ -1,10 +1,10 @@
 footer {
     @include flexbox(row, center, inherit);
     justify-content: space-between;
-    padding: 15px;
-    height: 100px;
-    background: linear-gradient(to top, #4b1a1a, #640b0b);
-    ;
+    padding: 5px 30px 0px 30px;
+    height: 63px;
+    background-color: rgb(33, 37, 41);
+    border-top: 2px rgb(73, 80, 87) solid;
 
     img.incono-uno {
         @extend %iconos-footer;
@@ -21,4 +21,6 @@ footer {
 
 .text-footer {
     font-size: medium;
+    color: rgb(120, 126, 134);
+
 }

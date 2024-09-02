@@ -1,10 +1,20 @@
 h1 {
     display: flex;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Cinzel", serif;
     font-size: 100px;
     justify-content: center;
     text-align: center;
+    background-image: url(../assets/img/fondo-texto-dos.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
-body {
-    background-color: #640b0b;
+
+main {
+    background-image: radial-gradient(75% 75% at 50% 50%, #000000FF 70%, rgb(119, 47, 5) 99%);
+}
+
+p {
+    color: rgb(120, 126, 134);
+    font-family: "Cinzel", serif;
+    font-weight: bold;
 }

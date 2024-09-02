@@ -21,14 +21,23 @@ footer img.incono-tres:hover, footer img.incono-dos:hover, footer img.incono-uno
 
 h1 {
   display: flex;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Cinzel", serif;
   font-size: 100px;
   justify-content: center;
   text-align: center;
+  background-image: url(../assets/img/fondo-texto-dos.jpg);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-body {
-  background-color: #640b0b;
+main {
+  background-image: radial-gradient(75% 75% at 50% 50%, black 70%, rgb(119, 47, 5) 99%);
+}
+
+p {
+  color: rgb(120, 126, 134);
+  font-family: "Cinzel", serif;
+  font-weight: bold;
 }
 
 header {
@@ -53,14 +62,17 @@ header .nav-link {
   padding: 5px;
   margin: 3px;
   font-family: "Rajdhani", sans-serif;
-}
-header .nav-link:hover {
-  border-bottom: 4px inset black;
-  background-color: rgb(245, 42, 11);
+  font-size: 20px;
+  font-weight: bold;
 }
 header .nav-link:visited {
   text-decoration: none;
-  color: rgb(36, 23, 217);
+  color: rgb(142, 39, 27);
+}
+header .nav-link:hover {
+  border-bottom: 1px inset black;
+  background-color: rgb(142, 39, 27);
+  color: rgb(222, 214, 213);
 }
 
 footer {
@@ -69,21 +81,35 @@ footer {
   justify-content: center;
   align-items: inherit;
   justify-content: space-between;
-  padding: 15px;
-  height: 100px;
-  background: linear-gradient(to top, #4b1a1a, #640b0b);
+  padding: 5px 30px 0px 30px;
+  height: 63px;
+  background-color: rgb(33, 37, 41);
+  border-top: 2px rgb(73, 80, 87) solid;
 }
 .text-footer {
   font-size: medium;
+  color: rgb(120, 126, 134);
 }
 
-section .img img {
+body .iniciouno {
   display: flex;
-  width: 100%;
+  align-items: center;
+  flex-direction: column;
 }
-section div.inicio p {
-  font: normal 18px/1.5 "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  margin: 10px;
+body .iniciouno .img {
+  display: flex;
+  justify-content: center;
+}
+body .iniciouno .img img {
+  width: 70%;
+}
+body .iniciouno div.inicio {
+  margin: 5px 5%;
+}
+body .iniciouno div.inicio p {
+  font: normal "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 1%;
+  text-align: center;
 }
 
 section.galeria img {
@@ -131,11 +157,11 @@ section.news img.img-news2:hover {
   transform: scale(1.3, 1.3);
 }
 section.news h2 {
-  font: normal 35px/1.5 "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font: normal "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 section.news p {
   text-align: left;
-  font: normal 18px/1.5 "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font: normal "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 10px;
 }
 
@@ -167,7 +193,7 @@ section.discografia div.descripcion-disco-dos {
   grid-area: descripcion-disco-dos;
 }
 section.discografia h2 {
-  font: normal 35px/1.5 "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font: normal "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .shop div.row {
@@ -192,7 +218,7 @@ section.discografia h2 {
     font-size: 50px;
   }
   section p {
-    font-size: 13px;
+    font-size: 9px;
   }
   .news h2 {
     font-size: 16px;
@@ -238,13 +264,13 @@ section.discografia h2 {
     font-size: 60px;
   }
   section p {
-    font-size: 20px;
+    font-size: 13px;
   }
   .news h2 {
     font-size: 20px;
   }
   .news p {
-    font-size: 14px;
+    font-size: 13px;
   }
   footer img {
     width: 30px;
