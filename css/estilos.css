@@ -82,7 +82,7 @@ footer {
   align-items: inherit;
   justify-content: space-between;
   padding: 5px 30px 0px 30px;
-  height: 63px;
+  height: 3%;
   background-color: rgb(33, 37, 41);
   border-top: 2px rgb(73, 80, 87) solid;
 }
@@ -218,22 +218,22 @@ section.discografia h2 {
     font-size: 50px;
   }
   section p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .news h2 {
     font-size: 16px;
   }
   .news p {
-    font-size: 13px;
+    font-size: 12px;
   }
-  footer img {
-    width: 15px;
-    height: 15px;
-    padding: 1px;
-  }
-  footer img:hover {
+  footer img.incono-uno, footer img.incono-dos, footer img.incono-tres {
     width: 18px;
     height: 18px;
+    padding: 1px;
+  }
+  footer img.incono-uno:hover, footer img.incono-dos:hover, footer img.incono-tres:hover {
+    width: 19px;
+    height: 19px;
   }
   footer .text-footer {
     font-size: x-small;
@@ -264,20 +264,20 @@ section.discografia h2 {
     font-size: 60px;
   }
   section p {
-    font-size: 13px;
+    font-size: 15px;
   }
   .news h2 {
     font-size: 20px;
   }
   .news p {
-    font-size: 13px;
+    font-size: 15px;
   }
-  footer img {
+  footer img.incono-uno, footer img.incono-dos, footer img.incono-tres {
     width: 30px;
     height: 30px;
     padding: 2px;
   }
-  footer img:hover {
+  footer img.incono-uno:hover, footer img.incono-dos:hover, footer img.incono-tres:hover {
     width: 32px;
     height: 32px;
   }

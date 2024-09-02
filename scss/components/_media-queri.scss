@@ -4,7 +4,7 @@
     }
 
     section p {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .news {
@@ -13,21 +13,23 @@
         }
 
         p {
-            font-size: 13px;
+            font-size: 12px;
         }
     }
 
     footer {
-        img {
-            width: 15px;
-            height: 15px;
+
+        %iconos-footer {
+            width: 18px;
+            height: 18px;
             padding: 1px;
 
             &:hover {
-                width: 18px;
-                height: 18px;
+                width: 19px;
+                height: 19px;
             }
         }
+
         .text-footer {
             font-size: x-small;
         }
@@ -66,7 +68,7 @@
     }
 
     section p {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .news {
@@ -75,13 +77,14 @@
         }
 
         p {
-            font-size: 13px;
+            font-size: 15px;
         }
     }
 
 
     footer {
-        img {
+
+        %iconos-footer {
             width: 30px;
             height: 30px;
             padding: 2px;
@@ -91,6 +94,7 @@
                 height: 32px;
             }
         }
+
         .text-footer {
             font-size: small;
         }
