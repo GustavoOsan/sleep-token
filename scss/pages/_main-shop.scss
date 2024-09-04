@@ -1,14 +1,24 @@
 .shop {
-    div.row {
+    .row {
         margin-right: 0px;
 
         .descripcion-prod {
             @include flexbox (row, center, inherit);
             text-align: center;
+            font: $subtitulo-h3;
         }
 
         .precio-prod {
             @include flexbox (row, center, center);
+            font: $precios;
+        }
+
+        .imagenes-shop {
+            @include flexbox (row, center, center);
+        }
+
+        .card-img-top {
+            @extend %imagenes-shop;
         }
     }
 }

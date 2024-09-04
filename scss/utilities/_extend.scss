@@ -13,3 +13,12 @@
         height: 50px;
     }
 }
+
+%imagenes-shop{
+        width: 100%;
+        transition: transform 1s ease-in-out 4ms;
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
+}

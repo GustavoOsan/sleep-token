@@ -7,6 +7,10 @@ section.galeria {
         @include flexbox (row, center, inherit);
         padding-bottom: 50px;
         padding-top: 5px;
-        font-size: 40px;
+
+        .card {
+            font: $subtitulo-h3;
+            color: rgb(120, 126, 134);
+        }
     }
 }
