@@ -4,3 +4,67 @@
     justify-content: $justify-c;
     align-items: $align-i;
 }
+
+@mixin responsive-font($h1, $h2-news, $p-news, $p-section, $h2-disc, $h3-disc, $h4-disc, $footer-text, $shop-h3, $shop-h4) {
+    h1 {
+        font-size: $h1;
+    }
+
+    section p {
+        font-size: $p-section;
+    }
+
+    .news {
+        h2 {
+            font-size: $h2-news;
+        }
+
+        p {
+            font-size: $p-news;
+        }
+    }
+
+    footer .text-footer {
+        font-size: $footer-text;
+    }
+
+    section.discografia {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: $h2-disc;
+        }
+
+        h3 {
+            font-size: $h3-disc;
+        }
+
+        h4 {
+            font-size: $h4-disc;
+        }
+    }
+
+    .shop .row {
+        h3 {
+            font-size: $shop-h3;
+        }
+
+        h4 {
+            font-size: $shop-h4;
+        }
+    }
+}
+
+@mixin footer-icons($width, $height, $hover-width, $hover-height, $padding) {
+    %iconos-footer {
+        width: $width;
+        height: $height;
+        padding: $padding;
+
+        &:hover {
+            width: $hover-width;
+            height: $hover-height;
+        }
+    }
+}

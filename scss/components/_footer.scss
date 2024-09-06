@@ -2,20 +2,17 @@ footer {
     @include flexbox(row, center, inherit);
     justify-content: space-between;
     padding: 5px 30px 0px 30px;
-    height: 3%;
+    height: 65px;
     background-color: rgb(31, 35, 38);
     border-top: 2px rgb(73, 80, 87) solid;
 
-    img.incono-uno {
-        @extend %iconos-footer;
-    }
+    img {
 
-    img.incono-dos {
-        @extend %iconos-footer;
-    }
-
-    img.incono-tres {
-        @extend %iconos-footer;
+        &.incono-uno,
+        &.incono-dos,
+        &.incono-tres {
+            @extend %iconos-footer;
+        }
     }
 }
 
