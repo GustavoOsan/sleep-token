@@ -7,44 +7,33 @@ section.discografia {
     grid-column: 2;
     grid-row: 3;
     grid-template-areas: 
-    "descripcion-disco-uno reprod-uno"
-    "reprod-dos descripcion-disco-dos"
-    "descripcion-disco-tres reprod-tres"
-    "conclusion-general conclusion-general";
-  
-    
-    div.descripcion-disco-uno {
-        grid-area: descripcion-disco-uno;
+        "descripcion-disco-uno reprod-uno"
+        "reprod-dos descripcion-disco-dos"
+        "descripcion-disco-tres reprod-tres"
+        "conclusion-general conclusion-general";
+
+    $grid-areas: (
+        "descripcion-disco-uno",
+        "reprod-uno",
+        "reprod-dos",
+        "descripcion-disco-dos",
+        "reprod-tres",
+        "descripcion-disco-tres",
+        "conclusion-general"
+    );
+
+    @each $area in $grid-areas {
+        div.#{$area} {
+            grid-area: #{$area};
+        }
     }
 
-    div.reprod-uno {
-        grid-area: reprod-uno;
+    div.conclusion-general {
+        padding: 5%;
+        text-align: center;
     }
 
-    div.reprod-dos {
-        grid-area: reprod-dos;
-    }
-
-    div.descripcion-disco-dos {
-        grid-area: descripcion-disco-dos;
-    }
-
-    div.reprod-tres {
-        grid-area: reprod-tres;
-    }
-
-    div.descripcion-disco-tres {
-        grid-area: descripcion-disco-tres;
-    }
-
-    div.conclusion-general{
-        grid-area: conclusion-general;
-        padding:5%;
-        text-align:center;
-    }
-
-
-    h2{
-        font:$subtitulos;
+    h2 {
+        font: $subtitulos;
     }
 }

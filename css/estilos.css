@@ -200,6 +200,8 @@ section.discografia div.descripcion-disco-tres {
 }
 section.discografia div.conclusion-general {
   grid-area: conclusion-general;
+}
+section.discografia div.conclusion-general {
   padding: 5%;
   text-align: center;
 }
