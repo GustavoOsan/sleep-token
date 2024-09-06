@@ -1,16 +1,7 @@
-section.galeria {
-    img {
-        @include flexbox (row, center, inherit);
-    }
-
+section {
     h3 {
-        @include flexbox (row, center, inherit);
-        padding-bottom: 50px;
-        padding-top: 5px;
-
-        .card {
-            font: $subtitulo-h3;
-            color: rgb(120, 126, 134);
-        }
+        display: flex;
+        font: $subtitulo-h3;
+        justify-content: center;
     }
 }

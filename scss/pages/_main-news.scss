@@ -3,37 +3,29 @@ section.news {
 
     div.imagenes-noticias {
         @include flexbox (row, center, center);
-    }
 
-    img.img-news1 {
-        @extend %imagenes-news;
-        transition-duration: 1s;
-        transition-timing-function: ease-out;
-        transition-delay: 10ms;
+        img.img-news {
+            @extend %imagenes-news;
+            transition-duration: 1s;
+            transition-timing-function: ease-out;
+            transition-delay: 10ms;
 
-        &:hover {
-            transform: scale(1.3, 1.3);
-        }
-    }
-
-    img.img-news2 {
-        @extend %imagenes-news;
-        transition-duration: 1s;
-        transition-timing-function: ease-out;
-        transition-delay: 10ms;
-
-        &:hover {
-            transform: scale(1.3, 1.3);
+            &:hover {
+                transform: scale(1.3, 1.3);
+            }
         }
     }
 
     h2 {
         font: $subtitulos;
+        text-align:center;
+        text-decoration: underline;
     }
 
     p {
-        text-align: left;
+        text-align:center;
         font: $parrafos;
-        margin: 10px;
+        margin: 10px 20px;
+        padding: 10px 50px;
     }
 }
